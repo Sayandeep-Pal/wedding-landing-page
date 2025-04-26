@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Button from '../ui/Button';
 import {  Users, Mail, MessageSquare } from 'lucide-react';
+import axios from 'axios';
 
+const URL = import.meta.env.VITE_BE_URL;
 const Contact = () => {
     const [values, setValues] = useState({
         name: '',
@@ -59,14 +61,22 @@ const Contact = () => {
             setIsSubmitting(true);
             
             try {
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                setSubmitStatus('success');
-                setValues({
-                    name: '',
-                    email: '',
-                    message: '',
+                // await new Promise(resolve => setTimeout(resolve, 1500));
+                // setSubmitStatus('success');
+                // setValues({
+                //     name: '',
+                //     email: '',
+                //     message: '',
+                // });
+                // console.log(values)
+                console.log(URL)
+                const response = await axios.post(`${URL}/api/contact`, {
+                    name: values.name,
+                    email: values.email,
+                    message: values.message,
                 });
-                console.log(values)
+                console.log(response.data);
+                setSubmitStatus('success');
             } catch (error) {
                 setSubmitStatus('error');
             } finally {

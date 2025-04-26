@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
 import ThemeToggle from '../ui/ThemeToggle';
+import Logo from '../../assets/image.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,6 +30,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Heart className="h-8 w-8 text-rose-500 dark:text-rose-400" />
+          {/* <img className="h-8 w-8 text-rose-500 dark:text-rose-400" src={Logo} alt="logo" /> */}
           <span className="ml-2 text-2xl font-serif font-bold text-slate-800 dark:text-white">
             Forever<span className="text-rose-500 dark:text-rose-400">Wed</span>
           </span>
