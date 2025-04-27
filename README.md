@@ -9,6 +9,7 @@ Follow these steps to set up the project locally:
 ### Prerequisites
 - Ensure you have [Node.js](https://nodejs.org/) installed (LTS version recommended).
 - Install [Git](https://git-scm.com/) for version control.
+- Use **pnpm** for package manager installation.
 
 ### Steps
 
