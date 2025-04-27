@@ -33,7 +33,7 @@ app.post("/api/contact", async (req, res) => {
 
 app.get("/api/contacts", async (req, res) => {
   try {
-    const contacts = await contact.find();
+    const contacts = await contact.find({});
     res.status(200).send(contacts);
   } catch (error) {
     console.error(error);
