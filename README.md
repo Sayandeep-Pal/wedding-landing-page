@@ -34,6 +34,7 @@ Follow these steps to set up the project locally:
     ```bash
     VITE_BE_URL = 'your-backend-URL' #Example = http://localhost:3000
     ```
+    **https://wedding-landing-page-server.vercel.app** this is my backend url.
 
 4. **Start the Development Server**
     Launch the development server with:
