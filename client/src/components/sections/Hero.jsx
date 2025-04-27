@@ -25,7 +25,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600')`,
+          backgroundImage: `url('https://media.istockphoto.com/id/1688098382/photo/closeup-of-indian-wedding-couple-holding-hands.jpg?s=612x612&w=0&k=20&c=ROKeVN0SqN4XvFDrriqYFJDOGxwYubyLNglimwRaPlY=')`,
           transform: `translateY(${offset}px)`,
           height: `calc(100% + 200px)`,
           top: '0px'
