@@ -3,30 +3,30 @@ import TestimonialCard from '../ui/TestimonialCard';
 
 const testimonials = [
   {
-    name: 'Sarah & Michael',
+    name: 'Sourav & Snigdha',
     date: 'June 2024',
-    image: 'https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://www.redveds.com/wp-content/uploads/2023/09/DSC05563-scaled-6-1.jpeg',
     text: 'Our wedding day was absolutely perfect thanks to the incredible team. Every detail was taken care of, allowing us to simply enjoy our special day without any stress.',
     rating: 5,
   },
   {
-    name: 'Emma & James',
+    name: 'Anil & Aparna',
     date: 'April 2024',
-    image: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://d397bfy4gvgcdm.cloudfront.net/87971-PriMik_Wedding_Portraits-27.jpeg',
     text: 'We cannot thank the team enough for making our wedding dreams come true. The venue looked stunning, and the coordination was flawless. Our guests are still talking about it!',
     rating: 5,
   },
   {
-    name: 'Jessica & David',
+    name: 'Tapas & Suparna',
     date: 'September 2023',
-    image: 'https://images.pexels.com/photos/1066726/pexels-photo-1066726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg?auto=compress&cs=tinysrgb&w=600',
     text: 'From our first meeting to the big day, the attention to detail was impeccable. They listened to our vision and executed it perfectly, even with our tight budget.',
     rating: 4,
   },
   {
-    name: 'Alexandra & Thomas',
+    name: 'Nirmal & Prajakta',
     date: 'July 2023',
-    image: 'https://images.pexels.com/photos/1109807/pexels-photo-1109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://images.pexels.com/photos/1707446/pexels-photo-1707446.jpeg?auto=compress&cs=tinysrgb&w=600',
     text: 'Our destination wedding seemed like an impossible task, but they made it happen seamlessly. The planning process was smooth, and they handled all the logistics beautifully.',
     rating: 5,
   },

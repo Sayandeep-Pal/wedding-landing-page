@@ -8,37 +8,31 @@ const Services = () => {
       icon: <Calendar className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Wedding Planning',
       description: 'Full-service wedding planning tailored to your vision and budget.',
-      price: 'From $2,500',
     },
     {
       icon: <Users className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Day-of Coordination',
       description: 'Professional coordination to ensure your wedding day runs smoothly.',
-      price: 'From $1,200',
     },
     {
       icon: <Camera className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Photography & Video',
       description: 'Capture every moment with our professional photography and videography.',
-      price: 'From $3,000',
     },
     {
       icon: <Music className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Entertainment',
       description: 'Live music, DJs, and entertainment options for your celebration.',
-      price: 'From $1,500',
     },
     {
       icon: <UtensilsCrossed className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Catering',
       description: 'Exquisite menus and beverage packages tailored to your preferences.',
-      price: 'From $100 per guest',
     },
     {
       icon: <Palette className="h-10 w-10 text-rose-500 dark:text-rose-400" />,
       title: 'Decor & Styling',
       description: 'Transform your venue with our beautiful decor and styling services.',
-      price: 'From $1,800',
     },
   ];
 
@@ -62,7 +56,6 @@ const Services = () => {
               icon={service.icon}
               title={service.title}
               description={service.description}
-              price={service.price}
             />
           ))}
         </div>
