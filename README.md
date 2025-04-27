@@ -1,6 +1,6 @@
 # Wedding Landing Page
 
-This is a simple wedding landing page built with React, Tailwind CSS, and Lucide icons. It features a hero section, services section, testimonials section, contact section, and a footer. The page is fully responsive and features a dark mode toggle.
+This is a simple wedding landing page built with React, Tailwind CSS, and Lucide icons. It features a hero section, services section, testimonials section, contact section, and a footer. The page is fully responsive.
 
 ## Installation and Setup
 
