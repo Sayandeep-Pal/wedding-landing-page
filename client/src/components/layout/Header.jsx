@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
-import { useTheme } from '../../contexts/ThemeContext';
-import ThemeToggle from '../ui/ThemeToggle';
-import Logo from '../../assets/image.png';
+import Logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,8 +27,8 @@ const Header = () => {
     <header className={headerClass}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Heart className="h-8 w-8 text-rose-500 dark:text-rose-400" />
-          {/* <img className="h-8 w-8 text-rose-500 dark:text-rose-400" src={Logo} alt="logo" /> */}
+          {/* <Heart className="h-8 w-8 text-rose-500 dark:text-rose-400" /> */}
+          <img className="h-8 w-8 text-rose-500 dark:text-rose-400" src={Logo} alt="logo" />
           <span className="ml-2 text-2xl font-serif font-bold text-slate-800 dark:text-white">
             Forever<span className="text-rose-500 dark:text-rose-400">Wed</span>
           </span>
@@ -38,11 +36,9 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <NavLinks />
-          <ThemeToggle />
         </nav>
         
         <div className="md:hidden flex items-center">
-          <ThemeToggle />
           <button 
             onClick={toggleMenu}
             className="ml-4 p-1 text-slate-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors"

@@ -66,3 +66,9 @@ Follow these steps to set up the project locally:
     The application will be available at `http://localhost:3000`.
 
 
+
+5. **Api Endpoints**
+    ###### POST methode :    **/api/contacts** ***{name, email, message}***
+    ###### GET methode :     **/api/contacts**
+
+

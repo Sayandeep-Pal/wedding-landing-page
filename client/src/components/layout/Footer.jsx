@@ -2,6 +2,7 @@ import React from 'react';
 import { Heart, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 import { HeartIcon } from 'lucide-react';
 import { HeartPulseIcon } from 'lucide-react';
+import Logo from '../../assets/logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <Heart className="h-6 w-6 text-rose-400" />
+              {/* <Heart className="h-6 w-6 text-rose-400" /> */}
+              <img src={Logo} alt="logo" className="h-6 w-6 text-rose-400"/>
               <span className="ml-2 text-xl font-serif font-bold">
                 Forever<span className="text-rose-400">Wed</span>
               </span>
